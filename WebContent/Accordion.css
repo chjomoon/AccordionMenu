@@ -1,40 +1,47 @@
-body, ul{
+
+body, ul, li{
 	margion : 0;
 	padding : 0;
+	color: #666;
+	
 }
 
 a{
+	width: 300px;
 	color: #666;
-	text-decoration: none;
 }
 
 .accordion ul li a{
 	display : block;
+	background-color : #eb6b60;
+	
 }
 
+
 .accordion > ul > li > a {
-	
-	padding : 20px 44px;
+	position: relative;
+	padding: 10px 37px;
 	border-bottom : 1px solid #e7e7e7;
-	bacground-color : #677381;
 }
 
 .accordion > ul > li.open > a{
-	background-color : #eb6b60;
+	background-color : #eb4d3a;
 }
 .accordion ul ul li a{
+	color: #666;
 	padding : 14px 44px;
-	border-botton : 1px solid #e7e7e7;
-	background-color: white;
+	border-botton : 1px solid #eb4d3a;
 }
 .icon {
-  	width: 300px;
-  	height: 30px;
-	text-align: center;
-	white-space: nowrap;
-	text-align: center;
+  	height: 40px;
 	position: relative;
  	/* Adjust these values accordingly */
- 	top: 5px;
- 	left: 5px;
+}
+.list-group-item{
+	max-width: 300px;
+	height: 30px;
+	position: relative;
+}
+.badge{
+	
 }

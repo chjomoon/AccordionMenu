@@ -10,10 +10,12 @@ $(function(){
 		}else{
 			element.addClass('open');
 			element.children('ul').slideDown();
+			
 			element.siblings('li').children('ul').slideUp();
 			element.siblings('li').removeClass('open');
-			//element.siblings('li').find('li').removeClass('open');
-			//element.siblings('li').find('li').slideUp();
+			//element.siblings('li').slideUp();
+			element.siblings('li').find('li').removeClass('open');
+			element.siblings('li').find('ul').slideUp();
 			
 		}	
 	});
